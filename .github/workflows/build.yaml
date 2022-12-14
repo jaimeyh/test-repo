@@ -1,0 +1,10 @@
+name: Test Action
+on:
+  workflow_dispatch:  # click the button on Github repo!
+
+jobs:
+  test-action:
+    name: Test Action job
+    steps:
+    - name: Test Step
+      uses: jaimeyh/test-action@v1.0
